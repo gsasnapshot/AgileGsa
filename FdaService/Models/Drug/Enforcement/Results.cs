@@ -1,9 +1,9 @@
+using FdaService.Models.Base;
+
 namespace FdaService.Models.Drug.Enforcement
 {
-    public class Results
+    public class Results : ResultsBase
     {
-        public int skip { get; set; }
-        public int limit { get; set; }
-        public int total { get; set; }
+
     }
 }

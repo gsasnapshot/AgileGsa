@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Base\MetaBase.cs" />
+    <Compile Include="Models\Base\ResultsBase.cs" />
     <Compile Include="Models\Device\Enforcement\Meta.cs" />
     <Compile Include="Models\Device\Enforcement\Openfda.cs" />
     <Compile Include="Models\Device\Enforcement\Result.cs" />

@@ -8,4 +8,3 @@ c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Text.xml
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.dll
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.pdb
-C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.csprojResolveAssemblyReference.cache
