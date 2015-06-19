@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdaService", "FdaService\FdaService.csproj", "{93EB613C-FB42-47C1-9DC6-5482AC94B427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdaServiceTests", "FdaServiceTests\FdaServiceTests.csproj", "{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93EB613C-FB42-47C1-9DC6-5482AC94B427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EB613C-FB42-47C1-9DC6-5482AC94B427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EB613C-FB42-47C1-9DC6-5482AC94B427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EB613C-FB42-47C1-9DC6-5482AC94B427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

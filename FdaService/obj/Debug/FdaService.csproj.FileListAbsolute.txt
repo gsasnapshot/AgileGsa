@@ -1,0 +1,10 @@
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\FdaService.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\FdaService.pdb
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\Newtonsoft.Json.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Client.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Interfaces.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Text.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Client.xml
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Text.xml
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.pdb

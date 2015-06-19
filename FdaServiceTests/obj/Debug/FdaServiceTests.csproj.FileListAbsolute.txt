@@ -1,0 +1,13 @@
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\FdaServiceTests.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\FdaServiceTests.pdb
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\FdaService.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Client.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\Newtonsoft.Json.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Interfaces.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Text.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\FdaService.pdb
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Client.xml
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Text.xml
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.csprojResolveAssemblyReference.cache
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.dll
+c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.pdb
