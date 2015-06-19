@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ce444e20-3d71-4982-9179-f19e1fc24b0f"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5619908f-54fd-4368-9328-9554d9f7a042"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFdaService.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bf13b2b9-e645-42ac-8658-d5a794ab30af"
+        LastKnownName="Device"
+        LastKnownLocation="Package2_1441.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0dd1e5c3-ef4c-42bf-95e5-948e0480dbe1"
+        LastKnownName="Drug"
+        LastKnownLocation="Package1_1448.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b42691c6-5989-4afe-ac37-2081a1ab19fa"
+        LastKnownName="Food"
+        LastKnownLocation="Package_1511.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

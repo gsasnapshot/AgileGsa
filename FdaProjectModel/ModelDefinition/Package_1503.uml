@@ -1,0 +1,2189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="09ee9f1b-77dd-4c69-b3ee-a14bfbce4e5a"
+  name="Enforcement" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2b2267a6-928a-4b3e-bc7d-fab178423711"
+        name="Result"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5618781b-3116-4d79-93b1-4bb9f008891d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f4524b64-f381-472a-844f-68db2a220eae"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fb10656-5f59-417c-98ea-8b506c5ecc6d">
+                <propertyInstance
+                  Id="9e935822-041b-41ff-80ce-a2ce5cd64b93"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fdcd47e8-4078-457d-80ca-ac5b5a42cd1b">
+                <propertyInstance
+                  Id="8ddcf20c-1e31-41f0-9fd1-4522a76cc742"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f82d310-0647-4f65-92ca-ae215bbf76ad">
+                <propertyInstance
+                  Id="a0c80856-f608-499f-b1b5-797d03a64456"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2c1527e-c007-474d-b45a-f376076cc4bf">
+                <propertyInstance
+                  Id="ed11fcdf-2fba-4dbc-b152-fe4eec71c8cb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a83ad285-3ef7-4674-853e-0274f12c26c2">
+                <propertyInstance
+                  Id="9e890d55-e180-4624-b56c-80bc56bb6a7a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="a079856c-6840-4d10-baf7-46752342c1eb"
+            isDerived="false"
+            sourceEndRoleName="Result"
+            targetEndRoleName="__invalid_name__epoch"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="02e3cb36-5960-40e9-b4c3-5a8294ea2645"
+              LastKnownName="Double"
+              LastKnownLocation="Package_1442.uml" />
+            <description>Property __invalid_name__epoch references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c17dfe52-1c14-4238-afef-1b863b40b613"
+                  name="Result"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="bcb27750-cdaf-4025-add0-a1a1f706b621"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="21035541-672c-4f1d-8a68-13edf5b99b2a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8569334-a07c-41ca-b288-068ac840d8d1"
+                  name="__invalid_name__epoch"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="87f549ee-5f0f-4998-897e-1cfbee1ec91d"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="27158631-3a83-4f84-b881-0976625c5adc"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="be2ed6cc-5704-409f-8d23-880e251a6645"
+            isDerived="false"
+            sourceEndRoleName="Result"
+            targetEndRoleName="openfda"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fd8feeca-627e-4459-9216-fc86770233bc"
+              LastKnownName="Openfda"
+              LastKnownLocation="Package3_1441.uml" />
+            <description>Property openfda references type Openfda.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33020cc6-dfaf-4474-9851-794c04507fd3"
+                  name="Result"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b22eefe3-3019-44da-8fd4-6cf9c0c4f1b7"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="151a7128-4c69-44b9-b693-2a5cf395ad9e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47c9512b-5346-4103-9606-e4fea5bf7feb"
+                  name="openfda"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b42d58d8-94ec-4c77-96f0-6da9cedb21af"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bac269c5-3fca-402c-b542-8da52548b292"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="1996f11e-1206-419a-8efd-48e106bb7fce"
+            name="__invalid_name__epoch"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c0987953-ad05-4199-8f6e-24790e8d1def"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3D__invalid_name__epoch"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f3a4efc4-f79d-42c3-93c3-14522fdd26ee"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c184c379-0bb8-4033-a530-8affc7baab54">
+                    <propertyInstance
+                      Id="78cc52c5-dc10-4bf3-8945-7b89a9544d93"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8edab951-b64c-4b02-ad1e-c83d4cc78e18">
+                    <propertyInstance
+                      Id="8d430796-2522-4938-bbcc-9ee41228223f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1e2f821-d92c-4972-b6f6-31b689e2d4ed">
+                    <propertyInstance
+                      Id="cc91560f-3776-4815-89ef-3729c11319f7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11f8f985-7c70-41aa-8ae2-270338fd7738">
+                    <propertyInstance
+                      Id="a159a8e0-6de6-4127-be61-8747422ed89c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="971a0c1f-67f1-401c-8c7d-2952cade6ef5">
+                    <propertyInstance
+                      Id="fcbd8806-c0ac-4d8e-8489-2337bca0662f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db0732dd-7751-431e-b639-f914db5bcc14">
+                    <propertyInstance
+                      Id="9f7c69cb-eb50-4bba-86d4-d272e8887b0c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e2f3c7e-6f01-4148-ab64-e4c3ca73f95a">
+                    <propertyInstance
+                      Id="9893b551-6de9-4967-b308-522937b2b32a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="02e3cb36-5960-40e9-b4c3-5a8294ea2645"
+                LastKnownName="Double"
+                LastKnownLocation="Package_1442.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3a6bf3dd-9595-4b4f-96ee-24c3bc11fab0"
+            name="__invalid_name__id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a2915610-31fe-4dee-a75f-2b798aa5f3a4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3D__invalid_name__id"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b7965e43-6b0e-463c-974e-f1208287882d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ecbeee8-bff5-40ba-ade0-3a4d28d41dbc">
+                    <propertyInstance
+                      Id="06394037-727e-456e-9d5d-7ac29ad3f9a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa375a8b-e822-4f06-83e6-8d0226f6eea4">
+                    <propertyInstance
+                      Id="7a2e49fb-87c8-438b-91d3-3b64e66112c2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc6be0d7-0722-4789-baca-296a4e9d237d">
+                    <propertyInstance
+                      Id="6d101a03-83fa-4e34-97fc-a71369909c04"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29e0046b-ad36-442f-9555-577f1fa950cd">
+                    <propertyInstance
+                      Id="98c10a56-c476-4378-b511-a349f409de9e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8590f317-a1ac-4f4b-92dc-3903cbbde597">
+                    <propertyInstance
+                      Id="fd9367a5-d09c-42e4-9855-91a3f853a9f8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b317e330-0219-423a-a2cf-4e1d2c37cf7f">
+                    <propertyInstance
+                      Id="b1f59b54-913c-428f-9f91-432861f4e085"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="617b2e53-17f9-428c-9865-cd07d8716a8f">
+                    <propertyInstance
+                      Id="5d9b596c-9deb-4e3c-893f-839f37544c3d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d23e76e5-e33b-4124-9f41-7aa17f8771cc"
+            name="city"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e18b2f30-bf2a-4ed2-b832-995d0bf7c5b1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dcity"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="205f7aa9-2f9c-4dc0-8c7e-bade9adc6303"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c928a0bf-0b83-4801-9c0b-be31608a38fb">
+                    <propertyInstance
+                      Id="f01d47cb-d3da-464c-aa76-f996f564a1ee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6081f44-eca4-4c82-9caf-72157c78e3c4">
+                    <propertyInstance
+                      Id="33206e22-1f4e-43fc-a8d3-96dea80c5a77"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd180453-8490-410b-9da8-82a56f301b45">
+                    <propertyInstance
+                      Id="edd2ac3c-d3e7-47d6-8128-b29b2ad4de31"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="286025b0-ee83-4af5-be13-1349b755995c">
+                    <propertyInstance
+                      Id="4f5b6e2a-5623-46f5-9681-16ae7a55e024"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="804d8fce-ff3d-48f5-a2a1-fdc7a82c778e">
+                    <propertyInstance
+                      Id="111c70c5-8e13-4141-88dd-49feb42ee557"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be2fc02d-df92-4b79-8174-52f4c2d99102">
+                    <propertyInstance
+                      Id="611239cc-eaaa-4b5d-84d8-540b17afb75f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6105b991-508e-44fc-b272-9cc5b5501c4e">
+                    <propertyInstance
+                      Id="2131722f-de14-4c7f-98ec-ed120bcf3628"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1a687042-23a4-424e-87cd-2cb466ee1364"
+            name="classification"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="dde52bdc-f81e-41db-b499-2f2370ed6501"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dclassification"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="395c2f84-186d-495c-be5d-d229823e7d3d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaf42163-161a-476d-a82a-9c0953602d93">
+                    <propertyInstance
+                      Id="f11f73b0-db46-447a-a1bf-079d879ef312"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c31bea5d-8f34-4eb4-9b81-36255bebf34c">
+                    <propertyInstance
+                      Id="cac1ca70-b6a8-4a71-9ab8-1afd6eca18cf"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eccdfc2-37e6-4fd1-b152-dfe0ea6071a1">
+                    <propertyInstance
+                      Id="cc0a089a-83e1-4e1d-9582-7ff6c0eaa616"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc4c3e51-6371-4832-8ef3-695bf1f66e06">
+                    <propertyInstance
+                      Id="3e1b22f0-d151-4b40-9bb3-3046ec49dd68"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3547e38f-df12-498f-8232-8f5beb2cea2e">
+                    <propertyInstance
+                      Id="2bf71cd2-36cf-4f8a-ab58-12d199d12fd9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="369b025e-a7cf-4ddb-9f87-35d25b5763b4">
+                    <propertyInstance
+                      Id="02e57e6d-88c0-43a3-8c5c-1897bfb53961"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99b44d7f-5505-485d-99ea-4deafe30f5df">
+                    <propertyInstance
+                      Id="bde4bbf0-47a8-41b3-8edc-675b2852ed58"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0b3867a0-327a-44da-8511-2755419d80bf"
+            name="code_info"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3e90897a-6e0e-4bee-b080-f205a2f48f45"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dcode_info"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cea83a10-0976-4ab6-a272-fc5ff0e3e069"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba5b39f2-62a3-4f71-b69c-26b07ed3a8e4">
+                    <propertyInstance
+                      Id="eeeaf559-77d1-4480-a9f9-b4bf7505387b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b236d08-8d66-4445-af4b-e2bb088242bc">
+                    <propertyInstance
+                      Id="2b62b706-e9db-4f4c-8722-2a4d51c47cf4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5024e2a5-3df0-4f60-8727-a3a9adfc3e7e">
+                    <propertyInstance
+                      Id="21422bfc-fab2-477c-bc2a-9818df9f7d2d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d2666b8-138e-4bb2-94b4-7c84d1d1a3c1">
+                    <propertyInstance
+                      Id="f024bb0a-cdf7-4a92-b9f6-9b36ffd4ef2b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63e5322a-430d-4786-95b3-4437fd6b3660">
+                    <propertyInstance
+                      Id="62968544-df55-4e08-91a6-04d3aa7291d7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2223038f-7a2d-4581-947c-68171e34fdde">
+                    <propertyInstance
+                      Id="33bfc593-12cf-4285-b348-ecc2255b9838"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7a234a2-bd90-4d97-b11d-537a644d9f3b">
+                    <propertyInstance
+                      Id="5f67402f-7d6e-4837-af65-9c22a31b5257"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2a40886d-274d-492f-b5b2-193d3048144f"
+            name="count"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0c46eeb2-efa1-48cd-aa77-336f0b10afc9"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dcount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="77a7532a-c8f0-4c84-97c4-9b369514cbd7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80c40fb9-7a94-40a8-b242-65d3f92be99d">
+                    <propertyInstance
+                      Id="096ffab6-0adc-4a29-a19b-8296a65860f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e84d4fc3-a141-445d-891f-715fab3fa891">
+                    <propertyInstance
+                      Id="ef67c617-4bd3-46fa-9918-fffe919d37d6"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d041c741-cdeb-4878-9f4d-49bbfd9eea5b">
+                    <propertyInstance
+                      Id="95253ab3-951b-4156-94e6-f29a3a766602"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a0317ba-7f6c-42a5-a204-9c62b3a35d2e">
+                    <propertyInstance
+                      Id="d950307d-53b5-40ec-8d7c-127ca57f749f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85045621-536e-43dc-8684-b0ef98962c24">
+                    <propertyInstance
+                      Id="82350405-1655-42a1-a484-8aeda0b95caa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bae46ea7-08fa-4b00-be6e-66469c539e60">
+                    <propertyInstance
+                      Id="01d08dbd-5c23-4ec4-9042-62ffab41495c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddd2a1fe-6ebc-475a-986e-48b4329cb76b">
+                    <propertyInstance
+                      Id="73ab256c-62f1-4464-8d39-c4968573f9ec"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="12773aa7-305d-4c3b-a8cd-b9668ca43883"
+            name="country"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bb4d1cdb-47e9-45c1-9e9a-ff2e716a43ae"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dcountry"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="80043fdb-3368-4569-a643-e0eee53b73b1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="959a6a5d-0bca-4280-be0b-af8eee5bb8ef">
+                    <propertyInstance
+                      Id="3a99a592-9e56-4b3e-b441-f009f447e567"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ae5b18a-5bb7-4acc-9296-3d69212e5d0b">
+                    <propertyInstance
+                      Id="3eccf662-f0f6-4df6-8192-bfb1ca02d28b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec3ed322-8e02-4e4e-b6a4-65068521b98f">
+                    <propertyInstance
+                      Id="d75ca577-12e9-4031-b15c-aa620aca30df"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bae19fe5-51d7-497a-b10b-a7dca41cd8c2">
+                    <propertyInstance
+                      Id="13f4812a-76a7-4d60-a5ef-f04b6acbcd6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95661894-598a-428f-a431-6ecc865894ff">
+                    <propertyInstance
+                      Id="756c534a-9ab1-43be-8b64-9e341abea6ac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76112bfe-9a4f-4ec1-b7c6-4c5314680ad8">
+                    <propertyInstance
+                      Id="9b1c4d0b-7022-4e35-ac45-12b12d810dc3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97ebcd90-959e-4754-99b5-d436778768c6">
+                    <propertyInstance
+                      Id="6924d813-ced0-4069-9c45-245d42ce5348"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6dd9098e-c282-4016-a874-fff48c6307ea"
+            name="distribution_pattern"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="019bc081-ffad-48b1-a105-2adf562b9095"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Ddistribution_pattern"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d3fbd362-6567-4e9f-be79-c79d5abbe748"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d28bdbcd-f4c6-4a75-a89c-50bf90efd4b3">
+                    <propertyInstance
+                      Id="164719b3-5dae-4f6a-a92e-b4fbfe9e8cfc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afbc9306-9674-4d5d-b81d-850f0d400c56">
+                    <propertyInstance
+                      Id="0a1f00ea-d129-425d-87f5-b76bdba96797"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6b4ca4f-b034-47f3-afa3-97e758a00f6e">
+                    <propertyInstance
+                      Id="e97bb247-8407-4c8e-987f-c6b236645cae"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c355ddcc-5765-46ad-be68-88ccd05090fb">
+                    <propertyInstance
+                      Id="f86279cc-297e-4d7d-ba40-c6c8090e3467"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d7f2b23-47e0-4f77-9bf8-5c0934e70b1f">
+                    <propertyInstance
+                      Id="504226d1-7e76-4694-b5ef-ce742bfac18f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d11caf6a-1d9c-42ca-bc96-3089c76bb540">
+                    <propertyInstance
+                      Id="b284e1b5-0eac-4f90-9d66-86d6964203e5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48f68434-d7d4-4a37-8932-ff6fee2d4822">
+                    <propertyInstance
+                      Id="c0a1471f-f57c-4aa3-b956-57adc13d8c33"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f992483c-f71b-4fba-84b7-30755d046514"
+            name="event_id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="335a18a4-132e-4185-82ae-6bcb14dac018"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Devent_id"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="51915621-bb54-41ba-a9b1-294561b272ac"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d436766-5eb0-40a9-839d-127d5c2f120b">
+                    <propertyInstance
+                      Id="67ab753e-c9d6-42f3-9c81-c722da27ac6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4b14e3e-c9f3-4cbf-a5b4-5acd6b36cc08">
+                    <propertyInstance
+                      Id="d189912f-e383-4329-b5a3-e997984fd536"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70967f63-db4e-4a5a-982a-48520300bd36">
+                    <propertyInstance
+                      Id="7364f254-ab8c-47e1-b937-e17eabff80aa"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40d367ab-723c-406b-b6f9-43b0c507c783">
+                    <propertyInstance
+                      Id="c1af645d-229d-4f33-965e-8c44fc8b4c1c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="332698df-7e79-40a2-9673-04ccc1051502">
+                    <propertyInstance
+                      Id="d59d1ee5-6f65-4861-b7e3-3368f68afc46"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75d38529-fff9-4c5b-ad38-76544ef129a3">
+                    <propertyInstance
+                      Id="815eee45-15cd-40f0-a7c4-d0f511651df9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e063866c-b8c8-463b-8496-83f34f3df856">
+                    <propertyInstance
+                      Id="199623e6-24ae-4c3b-9033-ba5d4c42e675"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b5c08b3e-f820-4002-bead-fdb0da07cb7d"
+            name="initial_firm_notification"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="93096e4a-ca4f-4d64-baa8-6b03f0d4de64"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dinitial_firm_notification"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="49bc0381-e87a-461b-a2f6-429a1fc27a4b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e36c5baa-3ed9-4d25-b6f8-ba969685cceb">
+                    <propertyInstance
+                      Id="1aaeba55-761d-483b-95c5-f442c326fb8d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12141cf1-2f4c-4309-b474-c9d238301a53">
+                    <propertyInstance
+                      Id="0af5f241-0ef9-40a1-838a-9ab1dd3d89af"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa1f0b5f-e01e-48d0-b636-c6c523c5c075">
+                    <propertyInstance
+                      Id="185e6ce8-eb5b-4260-9415-788d969675ad"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa5f7224-3fa9-4545-bc16-d27b2b0e4571">
+                    <propertyInstance
+                      Id="b66a4455-1d52-485d-89f5-ce65fc039916"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1428ad7a-ba84-4c1a-bd17-f6a35711af76">
+                    <propertyInstance
+                      Id="0b3dcda6-2147-49f1-b152-d559a0b43e54"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1ed3f74-078b-4929-81b3-886cb693d57c">
+                    <propertyInstance
+                      Id="c8855876-5bce-4315-a6ce-856739962b77"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c676bc43-616d-47ad-aa4f-048b2db10faa">
+                    <propertyInstance
+                      Id="800bbc89-663c-411d-b205-f83227aaeaaf"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="553a21a8-5078-471c-ad6d-b5232df61a80"
+            name="openfda"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5c5fdbdd-f64e-4df4-8417-9e46c8177d18"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dopenfda"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="84d2e6b0-cf29-443d-b630-ea74649408c3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f51db63b-12db-405c-bd46-eca6344b3f98">
+                    <propertyInstance
+                      Id="2e71bb7f-89ce-4bf6-adfc-e1bf5a069b1d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d94a53b-d531-413e-a212-c0982627fa4d">
+                    <propertyInstance
+                      Id="db22275b-2342-4912-88d6-a9dff41280a6"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bcf62e6-11e7-4e8e-bd7a-4be9b3a311d4">
+                    <propertyInstance
+                      Id="38a7e201-a803-4e82-914f-aa29c6bda7cd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b95ac24-9062-4acb-98e4-6f11dc9c7c0d">
+                    <propertyInstance
+                      Id="992312df-200e-444b-8443-ec6735654363"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f7eac71-bebb-4ab1-bfad-4b73527c42bf">
+                    <propertyInstance
+                      Id="b40e30a3-6622-4c2b-9cca-1ab4555ba747"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6f8be66-64ca-4a9f-84af-2c5fb30f1190">
+                    <propertyInstance
+                      Id="5d9e8a84-5e4b-4fea-b1c9-a7e42d4f3a3e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6df241a5-e1f1-4fe7-969d-5a382eff7d3a">
+                    <propertyInstance
+                      Id="d0426be6-5d62-46dd-a984-ec6d16f6651c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="fd8feeca-627e-4459-9216-fc86770233bc"
+                LastKnownName="Openfda"
+                LastKnownLocation="Package3_1441.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="33bf6c1f-8e17-428e-b77a-daf291c49305"
+            name="product_description"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="37c452a5-0831-4dab-984b-02a0e7db2b46"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dproduct_description"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1f831368-dbc6-4fde-85cf-108ae3b58ce4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bee04828-bfb4-4579-8593-bd1e8363eb8e">
+                    <propertyInstance
+                      Id="76970490-6718-49d8-bd6c-325af0e6b432"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adaf9dc8-2ec1-4634-b109-c1d7cf768bbd">
+                    <propertyInstance
+                      Id="5e89fbe6-3d6b-45f5-b1b3-4c48fe44d886"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c610f3e8-773a-42ef-b107-df4047bfa0e3">
+                    <propertyInstance
+                      Id="f656292c-a0a8-4ce6-a156-53cecd162c7a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbdf373d-92ad-471d-b9fd-d164fd1e11f7">
+                    <propertyInstance
+                      Id="76226990-6b1e-470d-9378-85156a34fabf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89de1b6c-5dbd-44ea-a753-7405d7e61584">
+                    <propertyInstance
+                      Id="765e024e-4dad-438c-b4a9-eef618d79bb3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6d102d1-7397-4ff8-9d0a-875296beb568">
+                    <propertyInstance
+                      Id="8157dc70-bc7f-47b4-97b2-8c84c6029ff3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac65d7d3-208c-4916-a949-8c13c1d5994b">
+                    <propertyInstance
+                      Id="1ebcfe10-7b0d-479e-b57c-82b54fdf95be"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ce3248f9-9ec2-41e0-bfb3-ec6381c86161"
+            name="product_quantity"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8496caaf-5b3d-41c2-a5ef-a086acb6fbe4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dproduct_quantity"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="589f0799-52f6-4788-a947-b85086ecc7a9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="897a2b97-379a-4efc-be22-285ce1355313">
+                    <propertyInstance
+                      Id="e68a52f2-fee4-4955-9d0d-f2ee6d41fa64"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="405de468-acb5-498e-a760-82dff507c408">
+                    <propertyInstance
+                      Id="f50e84ff-f382-4e1d-9410-b22aa6a7aacb"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a0b36bc-a7e9-4f0b-86b7-05e109c84c8d">
+                    <propertyInstance
+                      Id="b522b326-91ec-4244-81a3-7fd63b6f0a72"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ee91f0a-a787-4b56-b615-e3235e77c104">
+                    <propertyInstance
+                      Id="db985b4a-ddd6-4043-892e-27d96c21bc2b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9a5fece-3bc9-47f2-ab2e-0fd46715a6f7">
+                    <propertyInstance
+                      Id="8cbbbcaf-fc2d-4d9c-82d7-3920e3501523"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdccbcc3-0f71-421f-afe0-2bce88e61caa">
+                    <propertyInstance
+                      Id="dd401a67-104f-439e-a5f5-c290b553bd12"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1945b667-12cf-4248-90ef-73f511d677c1">
+                    <propertyInstance
+                      Id="4248e884-4dd8-4f0d-b9ff-082e099d2d47"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d97fabdd-ae6c-44ed-8a94-23f9f6b5e92a"
+            name="product_type"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b958e008-0b66-4b23-853d-a300d69dc4eb"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dproduct_type"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d5859fcf-be81-4b69-b1fc-441f5b13285b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cb8c09f-bf32-42bb-ae56-1c6eb897180e">
+                    <propertyInstance
+                      Id="78b175c4-ee2d-47bf-85fa-505527634c43"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd8d4f2f-6e66-4ab9-ac72-1237ed01a2f7">
+                    <propertyInstance
+                      Id="693ca6b4-c827-4c1f-b3d9-d89618ce275c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="060778a5-13d0-4e27-84ab-a1c635b25570">
+                    <propertyInstance
+                      Id="c6cdcf23-6ba5-46e7-b025-857ac83c7683"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="304b7b84-5bb8-459c-b762-1a34d4cc6a0c">
+                    <propertyInstance
+                      Id="6bbb5dd9-484b-4258-a0c5-496bc3d60d13"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f76c72d2-b3c2-4951-9d98-9969f4cb361d">
+                    <propertyInstance
+                      Id="91b3b84a-1f17-48a9-8980-a9fc2bddcc69"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="449323a8-ecb4-4b59-a3e3-045057e37780">
+                    <propertyInstance
+                      Id="cddfdae4-8fb4-42c0-b9bd-e45712026db7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06ab6673-7936-49f4-8e05-e2830ba171f9">
+                    <propertyInstance
+                      Id="6f3f6946-e2c3-422b-8adc-f54ad51774d7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="67523301-9ebc-4252-aed2-7b33a0088484"
+            name="reason_for_recall"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b519060c-bccd-41e5-a48b-bd7133893e7c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dreason_for_recall"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="868cf9c8-efd1-49fe-8be8-4150725e6dd9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fff6eaea-8372-44f2-8088-d74b4dde5547">
+                    <propertyInstance
+                      Id="3364be26-707c-4d3e-a6b5-d0eea719576e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56bc76de-8f44-4801-a0c8-1768c2e886af">
+                    <propertyInstance
+                      Id="76ca3d5a-6cc1-4be3-9db0-714b0dbebe98"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="552b514d-e970-452d-ac36-b9c1617b5942">
+                    <propertyInstance
+                      Id="f18c32a6-9b76-40d2-9511-1ce9d4344c79"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb365642-e561-4bde-91a6-5d58021a9658">
+                    <propertyInstance
+                      Id="0c87a755-866a-43cd-8d69-fceb82b014ae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a1ee142-e8cd-47b0-aca3-5e569027eeb9">
+                    <propertyInstance
+                      Id="4e2e980f-1a01-4bfd-86d8-fbc56c07885b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f827fd8-e37c-4bf4-85d8-f69a078673a4">
+                    <propertyInstance
+                      Id="6b82a591-7917-4c9f-9900-d75c41d45fc4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="306486fe-9df5-4528-a8d5-bbcd83592c12">
+                    <propertyInstance
+                      Id="d7314a30-cb8f-4c1d-94a9-5456c6e456a5"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3100447a-5546-4c51-9072-a549b001868e"
+            name="recall_initiation_date"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="585be74e-e4f5-4e48-9518-b39e23007e29"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Drecall_initiation_date"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="23e345d2-86a3-4e10-be84-30ba758b5105"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f69f441-0bc7-44e2-a652-0b3cbe1f272f">
+                    <propertyInstance
+                      Id="dc769b11-f32c-4dd3-a8e6-10ee4775cf67"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46b4ca08-3628-4030-a469-ae4d4241ae84">
+                    <propertyInstance
+                      Id="20c82098-4f8a-4f2d-81b9-128bc1f50fbe"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13305583-76ad-46e3-84ca-b234ac203c7d">
+                    <propertyInstance
+                      Id="3daa5f83-eee7-4a38-b929-580acfcab6e4"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="441d17ba-016f-4f57-b3b4-f69fa8eb1f6b">
+                    <propertyInstance
+                      Id="abcbb823-6d1c-4077-b7b5-cdae31cabd17"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0de4feca-2a0b-496d-b35a-634f83aea90c">
+                    <propertyInstance
+                      Id="3dd1d272-0fbf-4474-bcfa-052e183d7906"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="041315e6-9d86-45c9-aac8-86627b094250">
+                    <propertyInstance
+                      Id="d985ee1a-8e7f-4f6c-9b1c-7688da76c36a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7469f688-acc7-4e73-b41b-a32feffd8e07">
+                    <propertyInstance
+                      Id="1974c4b4-d274-4a19-9028-eb002abb55ae"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7f89cbf3-5347-435a-b098-989a6e0a4db2"
+            name="recall_number"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="870a981a-b9b5-4dbf-8f9a-e2167233dd6d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Drecall_number"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="55c0d8fc-bdd7-4120-9207-92c1104ae4fc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1c7b096-e933-49d3-b089-7d814bea649e">
+                    <propertyInstance
+                      Id="6c85b1ee-75aa-483c-8be0-c362c4e31270"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06da80e6-2708-475a-aa7c-28ad139ed429">
+                    <propertyInstance
+                      Id="5f859c14-4533-4002-8660-12dd87551097"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f009e93-f9d5-4a61-82b3-72dc3d8a4f49">
+                    <propertyInstance
+                      Id="a777eaa9-722a-4ed4-9ea7-457263a16aee"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cf21a58-5c3b-4d81-ab19-29a75e3b6000">
+                    <propertyInstance
+                      Id="22edd874-acb8-4aff-ae49-30688c257576"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2f7ac00-f0df-47e4-b0f2-09df339e193e">
+                    <propertyInstance
+                      Id="dbad2dfe-d124-4252-9b4e-1eb8a6df6aa2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af527758-a20f-4cdf-9318-78d43d05b75a">
+                    <propertyInstance
+                      Id="4bfdd8b6-b9d7-416d-be40-7f4eb6b011d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7c709a5-5758-49e0-b33e-e242f3683957">
+                    <propertyInstance
+                      Id="93f70a6c-397c-4b28-9406-c96a38a297a1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6b80e445-7e91-4541-aa8d-d5a1384c80b3"
+            name="recalling_firm"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9929aee9-b792-47b5-b1af-73c97129cdc4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Drecalling_firm"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72cbe4b9-a29d-4084-a604-f8245438fb10"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d910d991-7cae-484f-a67b-5cb80ff2abf4">
+                    <propertyInstance
+                      Id="d504af62-f68c-4982-a0a6-0ea930a2915f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7904c445-dcb0-4668-a33b-bd56d8e0a180">
+                    <propertyInstance
+                      Id="3a9c5fcb-c313-4fa5-b425-56ae8c6db0b4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7a1e13a-7cdf-4bcc-8a1f-c0e7d080dec1">
+                    <propertyInstance
+                      Id="bc9c1551-a83b-438e-8179-f054cfa8982d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="725cb2f9-898a-423d-8841-a1d687ca4281">
+                    <propertyInstance
+                      Id="6ec250f2-a1fa-442a-ae01-23a68150b4ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29b1182a-e482-4ef4-b431-d28075643704">
+                    <propertyInstance
+                      Id="fe42f4b6-8d02-4f3f-a303-630de49257fa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="356f6784-a763-496a-800a-692d6a8909a6">
+                    <propertyInstance
+                      Id="bee3b747-6e05-417a-9cc2-1b2b48408501"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5678e5e-6cdc-445b-b59f-cee69a98ea75">
+                    <propertyInstance
+                      Id="a00c81c2-b220-467a-8c0f-218eb6c3358b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1fa72e43-fdd9-45be-9e33-102168037274"
+            name="report_date"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="45f3a2b3-8d73-47e8-98a7-a00a0258f7c5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dreport_date"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d70d49a1-b9f0-4a79-8d8a-6927aa470da1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b5bd000-abf9-4fa3-9a06-ddacd66333ad">
+                    <propertyInstance
+                      Id="ad87dee9-6f91-4437-9fb2-dd44249baa7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f778ec1f-18dc-4c7b-bed1-398c83473e91">
+                    <propertyInstance
+                      Id="a91f8e6b-73f2-42a1-bcb3-42a22d076bae"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11d070c3-1dd8-4d70-85ca-d518a7539e89">
+                    <propertyInstance
+                      Id="ea988936-9ddd-49e6-aa7f-fd6151642a3b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9db9b62-95e4-4ccf-aded-af71634ec3fc">
+                    <propertyInstance
+                      Id="3413144e-49d7-4ecc-abe2-dcdc4b30babf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c532ad5-c438-4f26-8237-17b68d156fee">
+                    <propertyInstance
+                      Id="d94d9385-0134-4362-a08c-f315533cff67"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b473cc4a-3de7-49ba-812b-4015aa1a673c">
+                    <propertyInstance
+                      Id="75ce8bbd-b3c6-462a-a549-3131aa89642d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05fb55e3-99b3-4e2c-b717-5416bd67d479">
+                    <propertyInstance
+                      Id="c56f44f3-a7cf-44e6-8679-1f293cc0253f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bb1b4d8a-a256-4ca3-aa18-e9a390a20c2a"
+            name="state"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9fcf2fe6-441d-480e-8fee-720d5656277d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dstate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="189325d2-df1b-492b-a3d2-f050ae65292b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8051e9e9-b1b6-4d2b-8d00-0d395ad459f2">
+                    <propertyInstance
+                      Id="74642e22-d4d9-4e32-b490-419e0e8c93e2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fde25985-ae93-47d5-bee9-212cc79c8eb7">
+                    <propertyInstance
+                      Id="54d9b2a4-615d-4fb3-8583-aa630506154e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d103b8b6-6afa-40a3-a5e2-d42e56ed9502">
+                    <propertyInstance
+                      Id="1aec9574-7a59-4152-8476-d60bc64622b8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a0ad97e-5999-4172-a0f1-0bec0312a463">
+                    <propertyInstance
+                      Id="ef57138b-eccb-4d24-8044-b2819f9376ae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4032d3a2-2d1d-4886-8aac-fd6584979702">
+                    <propertyInstance
+                      Id="775c61ff-60ea-420b-8209-ec986928ca56"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63df9fae-32aa-4a27-8161-4c99e367341d">
+                    <propertyInstance
+                      Id="abeb04d7-833b-4a4b-b4ef-423179b27f1e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="290a76f6-dc91-4c71-828f-121608b986ea">
+                    <propertyInstance
+                      Id="119ee15a-4abe-4f20-843d-24f50f06ab20"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4e60bd88-1602-4926-bf7f-00e2901c8a96"
+            name="status"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9eb17bb9-fc8a-4b3a-991c-f7cb6a05466a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dstatus"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="987b7b3a-29e4-42e8-af03-df69e37ceef0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c7040c9-91b2-4e17-9f90-241e7233ad7c">
+                    <propertyInstance
+                      Id="873a8fa0-5e95-4135-89cd-0553db3c092e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6abea3d-048b-43bd-aee9-46758df132f6">
+                    <propertyInstance
+                      Id="6ee48913-3ef4-4318-ab48-1a774eee6cb6"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75fd891f-915e-4bcf-8667-b42f5cb1db1b">
+                    <propertyInstance
+                      Id="aceed763-d1e0-4664-a4db-36ec9395ba55"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8280a4bc-1ea2-4ff3-b8af-af7fef0fffc8">
+                    <propertyInstance
+                      Id="2158c008-282e-4e16-9afa-81d0452febc0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ac8262c-2e4c-46da-871e-6d357f5a2f05">
+                    <propertyInstance
+                      Id="288bd0c8-5fdc-4ebf-b765-d7922bec3b0c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="238ef6fc-99ef-4bb5-9623-a11a2c535d0d">
+                    <propertyInstance
+                      Id="84214a24-b3ee-44ec-981b-25166a16bc16"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecf54d43-9ac8-4fbb-9b35-de3668f9fcd2">
+                    <propertyInstance
+                      Id="873d8b4e-c122-42e2-b60e-2b489fea28d3"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="df357d42-6ae0-47a7-b130-6a703e9f5da8"
+            name="term"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b8394470-2124-4911-b8b5-2a2f4ef0b995"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dterm"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2961606a-093e-4afe-88bc-ccd49810a076"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3285d5f-ce8e-4e10-b743-27eaafec903d">
+                    <propertyInstance
+                      Id="df1ef84a-fd1f-4f7a-b3e9-e0cb311f19a5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="597581a9-4625-4d5d-b6b1-c2a554ed2a60">
+                    <propertyInstance
+                      Id="b96030f9-06b8-4685-8fed-e5b699ec08f5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c3da131-725b-49ba-a22c-a1008b010bc2">
+                    <propertyInstance
+                      Id="10fcfad1-8e6c-47ca-ba34-6c51f172c917"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8e72a9b-c5e7-4c0a-825e-f31f8ed5dc8b">
+                    <propertyInstance
+                      Id="ac2600bb-bfb5-4e88-a68b-0e2add187bd1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6bf3c8a-0a0a-4f84-bd94-62bc0e9f90b7">
+                    <propertyInstance
+                      Id="1408778f-a9ee-40cb-a4cf-ade90c87cfac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb56b402-9c90-40c2-b69c-a297ab2129ac">
+                    <propertyInstance
+                      Id="b2f34d46-48eb-4a5d-bafe-8ff9b51584d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="158b0afe-0d65-4be7-b36b-05495a80dd68">
+                    <propertyInstance
+                      Id="c3fbf98a-1753-4fcb-8f0b-a14409f18696"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7bfd4265-e773-4572-97f8-bb0fb216df60"
+            name="time"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c00e6c1f-b2b3-409a-b9a4-e8dbe8117b5c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dtime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f37cc55-71b4-4a26-9580-6ccc6f8c27c0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bb63ab2-4d50-4b59-b23e-650068a8b065">
+                    <propertyInstance
+                      Id="3463bf2c-a9f7-4e64-81bf-d5d0f055b265"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2768d62-ab67-4815-ad34-ea6eea2729e8">
+                    <propertyInstance
+                      Id="94035d3c-748e-4775-aa6f-df10f4781a57"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d7508ca-d10f-406c-aec0-02c1f2de1e53">
+                    <propertyInstance
+                      Id="5d284986-868a-4e99-8e60-8afb0683d15d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33fb4c87-56bf-41a5-8f66-27f201e8e33f">
+                    <propertyInstance
+                      Id="b82a2722-9c34-4238-b93a-1af7a1320784"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8578ebf9-476f-45e0-be70-777dc1511ba2">
+                    <propertyInstance
+                      Id="7c9c97ad-6f2a-482c-bcc9-a80f0f7b6919"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4b6d646-b49e-4682-995b-fe0cdb969cd3">
+                    <propertyInstance
+                      Id="fabc4f78-3d7f-490c-b6c4-fa2c0e70e5ac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0dbcea5-202e-46ea-9fcb-4234f686d5af">
+                    <propertyInstance
+                      Id="f2feb7d6-7b65-4957-bf21-aa216475f547"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c7543669-af60-403e-9c7a-7518d7fb24ea"
+            name="voluntary_mandated"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7986f177-72fa-476d-96b5-9c9499e48574"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3Dvoluntary_mandated"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f07348fe-1ee1-4238-8868-2225e94f4145"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="996ea691-17db-4f49-91ba-fbeef1ffa47b">
+                    <propertyInstance
+                      Id="9c1722e8-e35d-453c-9479-83718ba996d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58315e37-b221-4f48-9f99-af1b146f0dd3">
+                    <propertyInstance
+                      Id="a17e0575-819f-42a6-a90b-d39d6f7edd5c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e3e3861-e8ec-44f2-8388-4ae240a1398e">
+                    <propertyInstance
+                      Id="8e06eda0-6aef-4297-942f-ed0d2733b626"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="784bcbb6-528a-4997-84ef-7affada7fc3b">
+                    <propertyInstance
+                      Id="9a60f6ca-b057-4995-b51e-b44dc1f9517d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="909703a3-6d63-4771-88fd-f920edc30916">
+                    <propertyInstance
+                      Id="c129d952-1e73-47cb-9749-1b65919eaf3a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8041e89-55a3-468f-b93b-81dc7876ee1e">
+                    <propertyInstance
+                      Id="ad774b3a-beb5-4d8e-96e3-fa49ca4b90ff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3093b2fd-e03a-4046-b3ec-ff81f3378c63">
+                    <propertyInstance
+                      Id="35f969ee-a1d1-4e93-8310-5ae7d626d589"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FdaProjectModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d5a3c73b-9f40-42a9-9bba-474b619ea882"
+            name="Result"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f8200d8b-779a-4d83-866f-f744183a12cc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Fmsneen%2FDocuments%2FVisual Studio 2013%2FProjects%2FFdaService%2FFdaService%2Fbin%2FDebug%2FFdaService.dll&quot; Namespace%3DFdaService.Models.Device.Enforcement Type%3DResult Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6ff40803-3656-442e-91f7-e0caac209a5b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22cef908-8318-455b-b666-798643732a2a">
+                    <propertyInstance
+                      Id="0239784f-4ad7-4878-a59f-12794fe9dc40"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="beec1159-ed63-41bf-b38a-eb97e6505c96">
+                    <propertyInstance
+                      Id="a4ed0e20-592a-4ca8-828e-82e95f8a080a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a722f8d-feda-4786-8fbe-3406760c4105">
+                    <propertyInstance
+                      Id="fa622dd9-deb7-4138-b0d6-ddcbafbf049b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1034afa6-c4c3-4da1-88be-9710b54bc860">
+                    <propertyInstance
+                      Id="884786f2-df72-4d66-8682-675d0e90b8ed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4defec9a-f0e5-43b3-891a-702a097b4941">
+                    <propertyInstance
+                      Id="e5722827-6d80-4d2c-a42e-19bd0674b4af"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9548a11d-9120-43fc-b1a5-8a0451439a77">
+                    <propertyInstance
+                      Id="7cda8b2f-4d50-4e7b-bcfc-3afbaeb575a3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
