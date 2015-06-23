@@ -1,0 +1,94 @@
+﻿@model dynamic
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.ActionLink("CRUD Sample", "Sample", "Home")
+
+<div class="container-fluid">
+    <div class="row" ng-controller="simpleCtrl">
+        <div class="col-md-12">
+            <div class="row">
+                <div ng-repeat="person in People" ng-include="'person'"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script type="text/ng-template" id="spouse">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">Spouse:</div>
+                <div class="col-md-8">{{spouse.Name}}</div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/ng-template" id="person">
+        <div class="col-md-6"> <!-- Split results into two columns, along with row below -->
+            <div class="row well">
+                <div class="col-md-4">Name:</div>
+                <div class="col-md-8">{{person.Name}}</div>
+                <div ng-repeat="spouse in People | filter: {Id: person.SpouseId}" ng-include="'spouse'"></div>
+                <div ng-repeat="address in Addresses | filter: {Id: person.AddressId}" ng-include="'address'"></div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/ng-template" id="address">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">Address:</div>
+                <div class="col-md-8">{{address.Address}}</div>
+            </div>
+        </div>
+        <div ng-repeat="city in Cities | filter:{Id: address.CityId}" ng-include="'city'"></div>
+    </script>
+
+    <script type="text/ng-template" id="city">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-offset-4 col-md-8">{{city.Name}}, <span ng-repeat="state in States | filter: {Id: city.StateId}" ng-include="'state'"></span></div>
+                <div class="col-md-offset-4 col-md-8">{{city.Zip}}</div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/ng-template" id="state">
+        <span title="{{state.Name}}">{{state.Short}}</span>
+    </script>
+
+    <script type="text/javascript">
+        var simpleApp = angular.module('simpleApp', []);
+        simpleApp.controller('simpleCtrl', function ($scope) {
+            $scope.States = [
+                { Id: 1, Name: "California", Short: "CA" },
+                { Id: 2, Name: "Maine", Short: "ME" },
+                { Id: 3, Name: "Vermont", Short: "VT" }
+            ];
+            $scope.Addresses = [
+                { Id: 1, CityId: 1, Address: "1234 2nd St." },
+                { Id: 2, CityId: 3, Address: "5632 3rd St." },
+                { Id: 3, CityId: 2, Address: "1022 Barium Way" },
+                { Id: 4, CityId: 1, Address: "324 Cesium Ave." }
+            ];
+            $scope.Cities = [
+                { Id: 1, Name: "San Diego", StateId: 1, Zip: "92109" },
+                { Id: 2, Name: "Agusta", StateId: 2, Zip: "10021" },
+                { Id: 3, Name: "Burlington", StateId: 3, Zip: "20001" }
+            ];
+            $scope.People = [
+                { Id: 1, Name: "Jean Pride", AddressId: 4, SpouseId: 0 },
+                { Id: 2, Name: "Bruce Parker", AddressId: 2, SpouseId: 0 },
+                { Id: 3, Name: "Clark Wayne", AddressId: 1, SpouseId: 4 },
+                { Id: 4, Name: "Louis Wayne", AddressId: 1, SpouseId: 3 },
+                { Id: 5, Name: "Logan Summers", AddressId: 3, SpouseId: 6 },
+                { Id: 6, Name: "Beth Summers", AddressId: 3, SpouseId: 5 }
+            ];
+        });
+
+        angular.bootstrap(document, ['simpleApp']);
+    </script>
+}
