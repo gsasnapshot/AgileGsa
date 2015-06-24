@@ -11,3 +11,16 @@ c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.csprojResolveAssemblyReference.cache
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.dll
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.pdb
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\FdaServiceTests.dll
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\FdaServiceTests.pdb
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\FdaService.dll
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\Newtonsoft.Json.dll
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\ServiceStack.Client.dll
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\ServiceStack.Interfaces.dll
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\ServiceStack.Text.dll
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\FdaService.pdb
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\ServiceStack.Client.xml
+C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\ServiceStack.Text.xml
+C:\BatTeam\agilegsa\FdaServiceTests\obj\Debug\FdaServiceTests.csprojResolveAssemblyReference.cache
+C:\BatTeam\agilegsa\FdaServiceTests\obj\Debug\FdaServiceTests.dll
+C:\BatTeam\agilegsa\FdaServiceTests\obj\Debug\FdaServiceTests.pdb

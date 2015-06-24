@@ -36,3 +36,35 @@ C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\S
 C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\FdaService.pdb
 C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\ServiceStack.Client.xml
 C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\ServiceStack.Text.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\FaNgMvcBs.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\FaNgMvcBs.pdb
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\Antlr3.Runtime.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\EntityFramework.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\FdaService.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\Microsoft.Web.Infrastructure.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\Newtonsoft.Json.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.Mvc.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.Optimization.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.Providers.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.Razor.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.WebPages.Deployment.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.WebPages.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.WebPages.Razor.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\WebGrease.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\ServiceStack.Client.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\ServiceStack.Interfaces.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\ServiceStack.Text.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\FdaService.pdb
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\EntityFramework.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\Newtonsoft.Json.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.Mvc.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.Razor.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.WebPages.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.WebPages.Deployment.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\System.Web.WebPages.Razor.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\ServiceStack.Client.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\bin\ServiceStack.Text.xml
+C:\BatTeam\agilegsa\FaNgMvcBs\obj\Debug\FaNgMvcBs.csprojResolveAssemblyReference.cache
+C:\BatTeam\agilegsa\FaNgMvcBs\obj\Debug\FaNgMvcBs.dll
+C:\BatTeam\agilegsa\FaNgMvcBs\obj\Debug\FaNgMvcBs.pdb
