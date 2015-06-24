@@ -36,3 +36,4 @@ C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\S
 C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\FdaService.pdb
 C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\ServiceStack.Client.xml
 C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\ServiceStack.Text.xml
+C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FaNgMvcBs\bin\FaNgMvcBs.dll.config
