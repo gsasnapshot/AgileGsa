@@ -8,4 +8,13 @@ c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\bin\Debug\ServiceStack.Text.xml
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.dll
 c:\users\msneen\documents\visual studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.pdb
-C:\Users\msneen\Documents\Visual Studio 2013\Projects\FdaService\FdaService\obj\Debug\FdaService.csprojResolveAssemblyReference.cache
+C:\BatTeam\agilegsa\FdaService\bin\Debug\FdaService.dll
+C:\BatTeam\agilegsa\FdaService\bin\Debug\FdaService.pdb
+C:\BatTeam\agilegsa\FdaService\bin\Debug\ServiceStack.Client.dll
+C:\BatTeam\agilegsa\FdaService\bin\Debug\ServiceStack.Interfaces.dll
+C:\BatTeam\agilegsa\FdaService\bin\Debug\ServiceStack.Text.dll
+C:\BatTeam\agilegsa\FdaService\bin\Debug\ServiceStack.Client.xml
+C:\BatTeam\agilegsa\FdaService\bin\Debug\ServiceStack.Text.xml
+C:\BatTeam\agilegsa\FdaService\obj\Debug\FdaService.csprojResolveAssemblyReference.cache
+C:\BatTeam\agilegsa\FdaService\obj\Debug\FdaService.dll
+C:\BatTeam\agilegsa\FdaService\obj\Debug\FdaService.pdb
