@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdaService", "FdaService\FdaService.csproj", "{93EB613C-FB42-47C1-9DC6-5482AC94B427}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdaServiceTests", "FdaServiceTests\FdaServiceTests.csproj", "{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}"
-EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "FdaProjectModel", "FdaProjectModel\FdaProjectModel.modelproj", "{D3327B46-9041-4CEF-8C83-76EE3AC72E96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaNgMvcBs", "FaNgMvcBs\FaNgMvcBs.csproj", "{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}"
 EndProject
@@ -23,10 +23,6 @@ Global
 		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3327B46-9041-4CEF-8C83-76EE3AC72E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3327B46-9041-4CEF-8C83-76EE3AC72E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3327B46-9041-4CEF-8C83-76EE3AC72E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3327B46-9041-4CEF-8C83-76EE3AC72E96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Release|Any CPU.ActiveCfg = Release|Any CPU

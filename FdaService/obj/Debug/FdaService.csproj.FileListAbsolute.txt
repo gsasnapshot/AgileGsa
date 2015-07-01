@@ -18,3 +18,13 @@ C:\BatTeam\agilegsa\FdaService\bin\Debug\ServiceStack.Text.xml
 C:\BatTeam\agilegsa\FdaService\obj\Debug\FdaService.csprojResolveAssemblyReference.cache
 C:\BatTeam\agilegsa\FdaService\obj\Debug\FdaService.dll
 C:\BatTeam\agilegsa\FdaService\obj\Debug\FdaService.pdb
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\FdaService.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\FdaService.pdb
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\Newtonsoft.Json.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\ServiceStack.Client.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\ServiceStack.Interfaces.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\ServiceStack.Text.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\ServiceStack.Client.xml
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\bin\Debug\ServiceStack.Text.xml
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\obj\Debug\FdaService.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaService\obj\Debug\FdaService.pdb

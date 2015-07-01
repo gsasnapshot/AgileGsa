@@ -24,3 +24,16 @@ C:\BatTeam\agilegsa\FdaServiceTests\bin\Debug\ServiceStack.Text.xml
 C:\BatTeam\agilegsa\FdaServiceTests\obj\Debug\FdaServiceTests.csprojResolveAssemblyReference.cache
 C:\BatTeam\agilegsa\FdaServiceTests\obj\Debug\FdaServiceTests.dll
 C:\BatTeam\agilegsa\FdaServiceTests\obj\Debug\FdaServiceTests.pdb
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\FdaServiceTests.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\FdaServiceTests.pdb
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\FdaService.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Client.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\Newtonsoft.Json.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Interfaces.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Text.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\FdaService.pdb
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Client.xml
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\bin\Debug\ServiceStack.Text.xml
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.csprojResolveAssemblyReference.cache
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.dll
+D:\_ThreeWire\AgileGSA\FdaService\FdaServiceTests\obj\Debug\FdaServiceTests.pdb
