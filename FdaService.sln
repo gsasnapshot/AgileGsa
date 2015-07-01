@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdaService", "FdaService\Fd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FdaServiceTests", "FdaServiceTests\FdaServiceTests.csproj", "{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaNgMvcBs", "FaNgMvcBs\FaNgMvcBs.csproj", "{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FaNgMvcBs2", "FaNgMvcBs2\FaNgMvcBs2.xproj", "{9C12637C-B451-4BD8-A628-858FF51C27C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A794FC9-0E77-4D37-B785-F3CB0E4BFBEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DFDBA77-CE2F-4C89-8E73-639B404CFF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C12637C-B451-4BD8-A628-858FF51C27C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C12637C-B451-4BD8-A628-858FF51C27C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C12637C-B451-4BD8-A628-858FF51C27C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C12637C-B451-4BD8-A628-858FF51C27C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

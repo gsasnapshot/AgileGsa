@@ -1,0 +1,22 @@
+﻿@using MvcContrib.UI.Grid; 
+@using FdaService;
+@using FdaService.Models.Drug.Event;
+@model  FdaService.Models.Drug.Event.RootObject
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+@{
+    Html.Grid(Model.results)
+        .Columns(column =>
+        {
+
+            column.For(c => c.);
+        })
+
+        .Attributes(@class => "table table-striped table-hover table-bordered table-condensed")
+        .Empty("No Records")
+        .Render();
+}

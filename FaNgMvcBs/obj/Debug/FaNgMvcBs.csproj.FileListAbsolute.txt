@@ -107,3 +107,5 @@ D:\_ThreeWire\AgileGSA\FdaService\FaNgMvcBs\bin\ServiceStack.Text.xml
 D:\_ThreeWire\AgileGSA\FdaService\FaNgMvcBs\obj\Debug\FaNgMvcBs.csprojResolveAssemblyReference.cache
 D:\_ThreeWire\AgileGSA\FdaService\FaNgMvcBs\obj\Debug\FaNgMvcBs.dll
 D:\_ThreeWire\AgileGSA\FdaService\FaNgMvcBs\obj\Debug\FaNgMvcBs.pdb
+D:\_ThreeWire\AgileGSA\FdaService\FaNgMvcBs\bin\Microsoft.Web.Mvc.dll
+D:\_ThreeWire\AgileGSA\FdaService\FaNgMvcBs\bin\MvcContrib.dll
