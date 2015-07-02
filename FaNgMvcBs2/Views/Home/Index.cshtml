@@ -1,14 +1,28 @@
 ﻿@using FdaService.Models.Drug.Event
-@model FdaService.Models.Drug.Event.RootObject
+@using FaNgMvcBs2.ViewModels
+@model DrugEventViewModel
 
 @{
     ViewBag.Title = "Home Page";
 
-    foreach(var result in Model.results)
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
     {
-        <div>@result.time</div>
+        @Html.DropDownListFor(model => model.SearchCriteriaSelected, new SelectList(Model.SearchCriteria, "FullName", "ShortName"))
+        @Html.EditorFor(model => model.SearchInfo)
+        <input type="submit" value="Search" />
+
+        if (Model.RootObject != null)
+        {
+            foreach (var result in Model.RootObject.results)
+            {
+            <div>@result.companynumb</div>
+            }
+        }
     }
-}
+
+
+    }
 
 
 
