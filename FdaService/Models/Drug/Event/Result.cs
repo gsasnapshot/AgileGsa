@@ -25,6 +25,7 @@ namespace FdaService.Models.Drug.Event
         public string companynumb { get; set; }
 
         public string term { get; set; }
+        public string time { get; set; }
         public int count { get; set; }
     }
 }

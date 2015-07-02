@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ServiceStack;
+//using ServiceStack;
+using System.Net;
+using System.Runtime.Serialization.Json;
+using System.IO;
 
 namespace FdaService
 {
@@ -14,9 +17,20 @@ namespace FdaService
         public static T GetData<T>(string baseUri, string endPoint, string parameters)
         {
             var apiKeyParam = String.Format(ApiKeyTemplate, ApiKey);
-            var client = new JsonServiceClient(baseUri); //"http://host/api/"
-            var response = client.Get<T>(endPoint + apiKeyParam + parameters); //"/hello/World!"
-            return response;
+            //var client = new JsonServiceClient(baseUri); //"http://host/api/"
+            //var response = client.Get<T>(endPoint + apiKeyParam + parameters); //"/hello/World!"
+            //return response;
+            var webClient = new WebClient();
+            var data = webClient.DownloadString(baseUri + endPoint + apiKeyParam + parameters);
+
+            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(T));
+
+            using (var memoryStream = new MemoryStream(Encoding.Unicode.GetBytes(data)))
+            {
+                var returnObject = (T)serializer.ReadObject(memoryStream);
+                return returnObject;
+            }
+            
         }
     }
 }
