@@ -2,8 +2,9 @@
 @using FaNgMvcBs2.ViewModels
 @model DrugEventViewModel
 
+
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Drug Event Page";
 
 
     @using (Html.BeginForm("Index", "Home", FormMethod.Post))
@@ -11,9 +12,8 @@
         @Html.DropDownListFor(model => model.SearchCriteriaSelected, new SelectList(Model.SearchCriteria, "FullName", "ShortName"))
         @Html.EditorFor(model => model.SearchInfo)
         <input type="submit" value="Search" />
-
-
-
+        @if (Model.RootObject != null)
+        {
         <table>
             <tr>
                 <th>
@@ -113,20 +113,14 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.count)
                     </td>
-                    <td>
-
-                    </td>
+                    <td></td>
                 </tr>
             }
             }
         </table>
+            }
+
+        }
 
 
-    }
-
-
-    }
-
-
-
-
+}
