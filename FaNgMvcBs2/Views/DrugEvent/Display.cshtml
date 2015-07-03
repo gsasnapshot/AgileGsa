@@ -1,0 +1,84 @@
+﻿@using FdaService.Models.Drug.Event
+@using FaNgMvcBs2.ViewModels
+@model DrugEventViewModel
+
+@{
+    ViewBag.Title = "Display Page";
+}
+<div>@Html.ActionLink("Search Again", "Search", "DrugEvent")</div>
+
+<div>
+    <label>Drug Info</label>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].medicinalproduct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].drugcharacterization)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].drugindication)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].drugadministrationroute)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].drugdosagetext)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].drugstartdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.drug[0].drugenddate)
+            </th>
+        </tr>
+
+        @foreach (var item in Model.Drugs)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.medicinalproduct)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.drugcharacterizationtext)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.drugindication)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.drugadministrationroutetext)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.drugdosagetext)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.drugstartdate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.drugenddate)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<div>
+    <label>Reactions</label>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RootObject.results[0].patient.reaction[0].reactionmeddrapt)
+            </th>
+        </tr>
+        @foreach (var item in Model.Reactions)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.reactionmeddrapt)
+                </td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,14 @@
+﻿@using FdaService.Models.Drug.Event
+@using FaNgMvcBs2.ViewModels
+@model DrugEventViewModel
+
+@{
+    ViewBag.Title = "Search Page";
+}
+
+@using (Html.BeginForm("Search", "DrugEvent", FormMethod.Post))
+{
+
+    @Html.EditorFor(model => model.SearchInfo)
+    <input type="submit" value="Search" />
+}

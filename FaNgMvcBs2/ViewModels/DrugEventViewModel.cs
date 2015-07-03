@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FdaService.Models.Drug.Event;
+using System.ComponentModel.DataAnnotations;
 
 namespace FaNgMvcBs2.ViewModels
 {
@@ -14,7 +15,12 @@ namespace FaNgMvcBs2.ViewModels
 
         public string SearchCriteriaSelected { get; set; }
 
+        [Required]
         public string SearchInfo { get; set; }
+
+        public List<Drug> Drugs { get; set; }
+
+        public List<Reaction> Reactions { get; set; }
 
     }
 }
