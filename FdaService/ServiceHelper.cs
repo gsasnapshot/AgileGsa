@@ -11,10 +11,15 @@ namespace FdaService
         {
             var apiKeyParam = String.Format(ApiKeyTemplate, ApiKey);
             var httpClient = new System.Net.Http.HttpClient();
-            var data = httpClient.GetStringAsync(baseUri + endPoint + apiKeyParam + parameters).Result;
+            try {
+                var data = httpClient.GetStringAsync(baseUri + endPoint + apiKeyParam + parameters).Result;
 
-            return JsonConvert.DeserializeObject<T>(data);
-            
+                return JsonConvert.DeserializeObject<T>(data);
+            }
+            catch (Exception ex)
+            {
+                return default(T);
+            }
         }
     }
 }

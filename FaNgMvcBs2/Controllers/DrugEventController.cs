@@ -60,26 +60,29 @@ namespace FaNgMvcBs2.Controllers
             model.Drugs = new List<FdaService.Models.Drug.Event.Drug>();
             model.Reactions = new List<Reaction>();
 
-            foreach (var result in model.RootObject.results)
+            if (model.RootObject != null && model.RootObject.results != null)
             {
-                foreach (var drug in result.patient.drug)
+                foreach (var result in model.RootObject.results)
                 {
-                    if (!model.Drugs.Any(d => d.medicinalproduct == drug.medicinalproduct) && model.Drugs.Count < 100)
+                    foreach (var drug in result.patient.drug)
                     {
-                        model.Drugs.Add(drug);
+                        if (!model.Drugs.Any(d => d.medicinalproduct == drug.medicinalproduct) && model.Drugs.Count < 100)
+                        {
+                            model.Drugs.Add(drug);
+                        }
+                    }
+                    foreach (var reaction in result.patient.reaction)
+                    {
+                        if (!model.Reactions.Any(r => r.reactionmeddrapt == reaction.reactionmeddrapt) && model.Reactions.Count < 100)
+                        {
+                            model.Reactions.Add(reaction);
+                        }
                     }
                 }
-                foreach(var reaction in result.patient.reaction)
-                {
-                    if(!model.Reactions.Any(r=>r.reactionmeddrapt == reaction.reactionmeddrapt) && model.Reactions.Count < 100)
-                    {
-                        model.Reactions.Add(reaction);
-                    }
-                }
-            }
-            model.Drugs = model.Drugs.OrderBy(a => a.medicinalproduct).ToList();
-            model.Reactions = model.Reactions.OrderBy(r => r.reactionmeddrapt).ToList();
 
+                model.Drugs = model.Drugs.OrderBy(a => a.medicinalproduct).ToList();
+                model.Reactions = model.Reactions.OrderBy(r => r.reactionmeddrapt).ToList();
+            }
             return View("Display", model);
         }
     }
