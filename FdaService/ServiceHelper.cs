@@ -20,8 +20,11 @@ namespace FdaService
             //var client = new JsonServiceClient(baseUri); //"http://host/api/"
             //var response = client.Get<T>(endPoint + apiKeyParam + parameters); //"/hello/World!"
             //return response;
-            var webClient = new WebClient();
-            var data = webClient.DownloadString(baseUri + endPoint + apiKeyParam + parameters);
+            var httpClient = new System.Net.Http.HttpClient();
+            var data = httpClient.GetStringAsync(baseUri + endPoint + apiKeyParam + parameters).Result;
+
+            //var webClient = new WebClient();
+            //var data = webClient.DownloadString(baseUri + endPoint + apiKeyParam + parameters);
 
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(T));
 
