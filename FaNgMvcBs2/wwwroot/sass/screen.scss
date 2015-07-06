@@ -216,10 +216,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d03333', end
 	&.quote-2 {
 		background: url('../images/testimonial-users.png') no-repeat 0 -200px;
 	}
-	&.quote-3 {
-		background: url('../images/testimonial-users.png') no-repeat 30px -380px;
+}
+.testimonial-slider {
+	margin-top: 20px;
+	.testimonial {
+		min-height: 90px;
+		padding-left: 120px;
+		margin-left: 20px;
 	}
-	
+	.quote-1 {
+		background: url('../images/testimonial-user-sm-1.png') no-repeat 15px 50%;
+	}
+	.quote-2 {
+		background: url('../images/testimonial-user-sm-2.png') no-repeat 15px 50%;
+	}
+	.quote-3 {
+		background: url('../images/testimonial-user-sm-3.png') no-repeat 15px 50%;
+	}
 }
 .testimonial-intro {
 	max-width: 400px;

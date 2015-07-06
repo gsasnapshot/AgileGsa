@@ -19,7 +19,9 @@ $(function () {
         auto: true,
         speed: 1200,
         pause: 8000,
-        mode: 'fade'
+        mode: 'fade',
+        pager: false,
+        controls: false
     });
 
 })
